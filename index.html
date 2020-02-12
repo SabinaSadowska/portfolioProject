@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <a id="menu-mobile"><i class="fas fa-bars"></i></a>
+            <span><a href="#about-me">O mnie</a></span>
+            <span><a href="#technologies">Technologie</a></span>
+            <span><a href="#contact">Kontakt</a></span> 
+        </nav>
+    </div>
+    <header class="header">
+        <div class="header-wrap">
+            <h1 class="header__slogan">Cześć! <br> Zapraszam do zapoznania się z moim portfolio.
+            </h1>
+            <a class="header__button button" href="#about-me">Start</a>
+        </div>
+    </header>
+    <section class="about-me section" id="about-me">
+        <h2 class="section-title">O mnie</h2>
+        <div class="about-me__wrap">
+            <h3 class="about-me__text">Nazywam się Sabina Sadowska i jestem aspirującą
+                programistką aplikacji webowych. Technologii z dziedziny Front-endu
+                uczyłam się samodzielnie z ciekawości, następnie ukończyłam kurs
+                CodersCamp a obecnie uczestniczę w intensywnych warsztatach
+                organizowanych przez InfoShare Academy w Gdańsku. Zapraszam do 
+                    <a class="about-me__contact-link" href="#contact">kontaktu.</a> 
+            </h3>
+            <div class="about-me__photo-wrap">
+                <img class="about-me__photo" src="img/mypic.png" alt="moje-zdjęcie">
+            </div> 
+        </div>
+    </section>
+    <section class="technologies section" id="technologies">
+        <h2 class="section-title">Technologie</h2>
+        <div class="technologies-wrap">
+            <div class="technologies__pair">
+                <i class="fab fa-html5"></i>
+                <p class="technologies-text">HTML 5 do sprawnego budowania struktury strony internetowej.</p>
+            </div>
+            <div class="technologies__pair">
+                <i class="fab fa-css3-alt"></i>
+                <p class="technologies-text">CSS 3 dla nowoczesnego wyglądu elementów.</p>
+            </div>
+            <div class="technologies__pair">
+                <i class="fab fa-git"></i>
+                <p class="technologies-text">GIT do zarządzania wersjami.</p>
+            </div>
+            <div class="technologies__pair">
+                <i class="fab fa-js-square"></i>
+                <p class="technologies-text">JavaScript do interakcji w aplikacjach.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-form section" id="contact" method="POST">
+        <h2 class="section-title">Kontakt</h2>
+        <form class="form-wrap"> 
+            <input class="form-name" type="text" placeholder="Imię i nazwisko">
+            <input class="form-email" type="email" required placeholder="Twój email">
+            <textarea class="form-text" rows="5" cols="50" placeholder="Tu wpisz wiadomość"></textarea>
+            <input class="form-button button" type="submit" value="ok">
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Copyright: Sabina Sadowska</p>
+        <div>
+            <a><i class="fab fa-github"></i></a>
+            <a><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/0033e3bf5b.js" crossorigin="anonymous"></script>
+</body>
+</html>
